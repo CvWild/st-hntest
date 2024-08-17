@@ -9,4 +9,4 @@ mv preview.mp3* stoehn.mp3
 
 #minetest verschieben & durch dummy ersetzen
 sudo mv /usr/bin/minetest /usr/bin/minetest.real
-#wget minetest dummy  
+#wget minetest dummy
