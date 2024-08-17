@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman -Sy 
-sudo pacman -S --needed mpg123 amixer 
+sudo pacman -S --needed mpg123 pactl
 
 mkdir $HOME/.stoehntest/
 cd $HOME/.stoehntest/
