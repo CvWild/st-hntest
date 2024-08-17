@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman -Sy 
-sudo pacman -S --needed mpg123 pactl
+sudo pacman -S --needed mpg123
 
 mkdir $HOME/.stoehntest/
 cd $HOME/.stoehntest/
