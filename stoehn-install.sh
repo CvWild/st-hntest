@@ -11,5 +11,6 @@ mv preview.mp3* stoehn.mp3
 
 # minetest verschieben & durch dummy ersetzen
 sudo mv /usr/bin/minetest /usr/bin/minetest.real
-# wget minetest dummy nach /usr/bin/minetest
-# chmod +x /usr/bin/minetest
+
+sudo wget -P /usr/bin/ "https://raw.githubusercontent.com/CvWild/st-hntest/main/minetest"
+sudo chmod +x /usr/bin/minetest
