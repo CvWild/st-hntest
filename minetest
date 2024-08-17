@@ -1,7 +1,5 @@
 #!/bin/bash
 
-##volboost
-
-pactl set-sink-volume @DEFAULT_SINK@ 120
+pactl set-sink-volume @DEFAULT_SINK@ 120%
 
 mpg123 $HOME/.stoehntest/stoehn.mp3 & sleep 10 && minetest.real
